@@ -94,6 +94,3 @@ new standalone folder with no inherited Git history. The included GitHub
 workflow parses the R files and runs the three artificial-input tests;
 empirical checks require the privately supplied inputs.
 
-After the public repository is created, replace the marked repository URL in
-the paper's online appendix. Record the release tag or commit used for the
-submitted paper.
