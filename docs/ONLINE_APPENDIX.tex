@@ -1,0 +1,30 @@
+\chapter*{Online Appendix: Reproducibility}
+\phantomsection
+\addcontentsline{toc}{chapter}{Online Appendix: Reproducibility}
+\label{sec:online-appendix}
+
+A companion reproducibility package contains the R code for constructing the
+classical and functional analysis samples, estimating the daily-mean, hourly,
+and functional Difference-in-Differences contrasts, and reproducing the
+reported figures and basis-dimension sensitivity results. It also includes
+input specifications, a mapping from the paper's results to the corresponding
+scripts, and automated checks of the sample counts and principal estimates.
+The main analysis was verified using R 4.4.3.
+
+Raw and processed data are not distributed with the package. Replication
+requires locally supplied hourly pollution extracts from the Ministry's
+National Air Quality Monitoring Network. The separate generation and
+study-area checks additionally require the source files described in the
+repository documentation. After supplying these inputs, the documented run
+rebuilds the results from the raw files; generated datasets and figures remain
+local. The package also provides tests based on artificial inputs that can be
+run without access to the research data.
+
+The code reproduces the sample-construction rules and point estimates used in
+this paper, including operating-period selection of the common smoothing
+parameter. The accompanying verification record distinguishes computational
+reproduction from assumptions needed for causal interpretation.
+
+\medskip
+\noindent\textbf{Repository:} \textit{[GitHub repository URL to be added before submission.]}
+

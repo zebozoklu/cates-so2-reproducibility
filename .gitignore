@@ -1,0 +1,23 @@
+# Never distribute raw data, derived observations, results or credentials.
+data/
+output/
+*.csv
+*.tsv
+*.rds
+*.RData
+*.rda
+*.parquet
+*.feather
+*.nc
+*.zip
+*.pdf
+*.png
+*.svg
+*.log
+.env
+.env.*
+.Renviron
+.Rhistory
+.Ruserdata
+.Rproj.user/
+.DS_Store
